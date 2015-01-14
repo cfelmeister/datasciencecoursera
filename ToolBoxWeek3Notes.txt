@@ -1,0 +1,147 @@
+Type of questions
+Descriptive ? describe set of data.  Usually can not be generalize without additional analysis  -- US Census is an example.  NOT predictive no inferences
+Google ngram viewer.  
+
+Exploratory ? find relationships you didn?t know about but not confirm them ? not final say on a problem ? shouldn?t be used for generalization or predicting
+Correlation does not imply causation. 
+
+Brain images portions of brain that light up ?
+Sloan digital sky survey ? data collected from night sky at different time to find new starts etc.  
+
+
+Inferential ? take a small sample of a bigger population to infer something about population
+Common from statistical analysis.  Make a generalization
+
+predictive  - use data from some objects to predict values of another object.  
+IF X PREDICTS Y it DOES NOT mean X causes Y
+Depends heaviliy on measuring the correct variables
+More data and simple models work well.  Very hard especially about future 
+SEE references
+Nate Silver fivethirtyeight.blogs.nytimes.com ? presidential predictions
+Target used purchases to send here something about pregnancy
+
+Causal ? Identify causes created by changing on variable.  Randomized studies are required to identify causation.  Generally identified on as ?on average?
+Gold Standard.   Fecal treatment ? determined causal impact on making people better.
+
+Mechanistic- understand exact changes in variables that lead to changes in other variables.
+Very hard to do.  
+Random component is data is measurement error.  May infer parameters if equations are now.  
+Engineering and physical science applications
+
+
+WHAT IS DATA ? Data are values of qualitative or quanitiative variables belonging to a set of items (population)
+
+Variables are characteristics of an item or object.
+Qualitative  - sex, treatment country of origin, 
+Quantitiative ? numberic value ? range.
+
+WHAT DO DATA LOOK LIKE???
+Data can be raw text etc.
+Data could be an API ? like twitter Rest APIs
+https://dev.twitter.com/docs/api/1/get/blocks/blocking
+
+Medical Record.
+
+VIDEO ? Audio  
+
+Darwin Tunes site determining evolution of music.  http://www.pnas.org/content/109/30/12081.full
+https://soundcloud.com/uncoolbob/sets/darwintunes
+
+Access to files through API or spreadsheets
+
+Rarely do data look clean and organization the way you?d want it to.
+
+Second most important thing in Data science ? most important thing is the question you ask.
+
+Data may limit the question that you ask.
+
+Having data without a question doesn?t work.
+
+
+BIG DATA
+
+Different definitions ? 1.8 zeta bytes of data in 2011
+
+?Big Data? depends on reference.
+
+Big deal now because 
+Can collect lots of data more cheaply ? 
+IE Looking at 240 million people and 30 billion text sessions.
+6.6. degrees of data
+
+Big or Small ? you need the RIGHT Data.
+
+Don?t use HADOOP ? you data isn?t that big HAHA
+
+Data and an aching desire for answer does not provide an answer ? even with ?gigantic?, may not be able to answer the questions if the right data is not available.
+
+EXPERIMENTAL DESIGN
+Why care.  Genomic signatures to guide the use of chemotherapeutics.
+But design was flawed as was the statistical analysis.  Used bad predictions to decide on CHEM to be used.   Resulted in lawsuit.   Must be very careful about experimental design.
+
+1. Care about the analysis plan.   What are key issues.
+2. Have a plan for data and code sharing.
+
+http://figshare.com -- for sharing larger amounts of data
+
+Jeff Leek has a sharing plan
+
+3. Formulate your question in advance.
+a. Scientific discipline
+4. Statistical inference ? using only a sample of full population.
+5. Calculate descriptive statistics for the sample ?
+6. Use inferential statistics to determine if this would play out in the same way in full population.
+
+Big benefit where there is small variability between test samples and large difference between samples.
+
+CONFOUNDING.  
+	Show size --> Literacy   
+
+Might be missing AGE -  
+
+	Show side depends on Age, so very small size children have lower literacy.
+
+Study found that countries with large chocolate consumption had more Nobel laureates but this might be do to other factors ? not just
+Correlation is NOT Causation
+
+Dealing with CONFOUNDERS.
+
+Fix variable so it can?t be a CONFOUNDERS
+Testing phrases and colors ? use both phrases with both colors (This is STRATEFYING.
+
+Randomizing will help overcome CONFOUNDING variable.
+
+
+PREDICTION.  Collect individuals that respond and did not respond to chem. Therapy.  Want to predict that for new person.
+
+Prediction is more challenging than inference.  If populations cross or share much of the data then very difficult to tell the difference.
+For prediction you need populations to be different with as little cross over as possible.
+
+Prediction key quantities
+
+Have a disease + 
+Or not have ?
+
+Test to see who has the disease  
+
+Sensitiviy --> Pr(positive test | disease)
+Specificity --> Pr( negative test | no disease
+Positive Predictive Value --> Pr(disease | positive test)
+Negative Predictive Value --> Pr()no disease | negative test)
+Accuracy --> Pr(Correct outcomes.
+
+Beware Data Dredging ? finding data that matches your hyposethis
+
+SUMMARY 
+
+GOOD EXPERIMENTS
+Have replication
+Measure variability 
+Generalize to the problem you care about
+Are Transparent. In code and data
+
+Prediction is not inference
+
+
+
+
